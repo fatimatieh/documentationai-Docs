@@ -1,5 +1,5 @@
 {
-  "name": "Starter Kit",
+  "name": "Helen Documentation",
   "colors": {
     "light": {
       "brand": "#F97316"
@@ -11,141 +11,202 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Helen Documentation",
         "icon": "book",
         "groups": [
           {
-            "group": "Start Here",
+            "group": "Cloud",
+            "icon": "cloud",
+            "pages": [
+              {
+                "group": "Azure",
+                "icon": "cloud",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Azure Functions",
+                    "path": "cloud/azure/azure-functions",
+                    "icon": "zap"
+                  },
+                  {
+                    "title": "Databases",
+                    "path": "cloud/azure/databases",
+                    "icon": "database"
+                  },
+                  {
+                    "title": "Storage Accounts",
+                    "path": "cloud/azure/storage-accounts",
+                    "icon": "archive"
+                  },
+                  {
+                    "title": "Cost",
+                    "path": "cloud/azure/cost",
+                    "icon": "dollar-sign"
+                  },
+                  {
+                    "title": "Gateway",
+                    "path": "cloud/azure/gateway",
+                    "icon": "network"
+                  }
+                ]
+              },
+              {
+                "group": "Google",
+                "icon": "bar-chart",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Analytics",
+                    "path": "cloud/google/analytics",
+                    "icon": "line-chart"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "GitHub Repos",
+            "icon": "github",
+            "pages": [
+              {
+                "title": "GitHub Repos",
+                "path": "github-repos",
+                "icon": "github"
+              }
+            ]
+          },
+          {
+            "group": "3rd-Party Apps",
+            "icon": "plug",
+            "pages": [
+              {
+                "title": "MKIO",
+                "path": "third-party-apps/mkio",
+                "icon": "box"
+              },
+              {
+                "title": "Twilio",
+                "path": "third-party-apps/twilio",
+                "icon": "message-circle"
+              },
+              {
+                "title": "SendGrid",
+                "path": "third-party-apps/sendgrid",
+                "icon": "mail"
+              },
+              {
+                "title": "Qase.io",
+                "path": "third-party-apps/qase-io",
+                "icon": "check-square"
+              }
+            ]
+          },
+          {
+            "group": "Technical Documentation",
+            "icon": "file-code",
+            "pages": [
+              {
+                "title": "Architectural Diagrams",
+                "path": "technical-documentation/architectural-diagrams",
+                "icon": "network"
+              },
+              {
+                "title": "Data Dictionary",
+                "path": "technical-documentation/data-dictionary",
+                "icon": "book-open"
+              },
+              {
+                "title": "App Maps",
+                "path": "technical-documentation/app-maps",
+                "icon": "map"
+              },
+              {
+                "title": "Dependencies and Frameworks",
+                "path": "technical-documentation/dependencies-and-frameworks",
+                "icon": "layers"
+              }
+            ]
+          },
+          {
+            "group": "App Releases",
             "icon": "rocket",
             "pages": [
               {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
-              },
-              {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
-              },
-              {
-                "title": "Components",
-                "path": "components",
-                "icon": "code"
+                "title": "App Releases",
+                "path": "app-releases",
+                "icon": "rocket"
               }
             ]
           },
           {
-            "group": "Components",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
-              },
-              {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
-              },
-              {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
-              },
-              {
-                "title": "Callouts",
-                "path": "components/callouts",
-                "icon": "message-square"
-              },
-              {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
-              },
-              {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Overview",
+            "group": "Authored Documents",
             "icon": "file-text",
             "pages": [
               {
-                "title": "Authentication",
-                "path": "authentication",
-                "icon": "lock"
+                "title": "Helen Administrator's Manual",
+                "path": "authored-documents/helen-administrators-manual",
+                "icon": "book"
               }
             ]
           },
           {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
+            "group": "Static Web Sites",
+            "icon": "globe",
             "pages": [
               {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
+                "title": "Analytics Gallery",
+                "path": "static-web-sites/analytics-gallery",
+                "icon": "bar-chart-2"
               }
             ]
           },
           {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
+            "group": "Processes (how to)",
+            "icon": "list-checks",
             "pages": [
               {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
+                "title": "Give access to dashboards",
+                "path": "processes/give-access-to-dashboards",
+                "icon": "user-plus"
+              },
+              {
+                "title": "How to set up MKIO for a new client",
+                "path": "processes/setup-mkio-new-client",
+                "icon": "settings"
+              },
+              {
+                "title": "Publish a package to private NuGet",
+                "path": "processes/publish-package-private-nuget",
+                "icon": "package"
+              },
+              {
+                "title": "src mapping from OLTP to OLAP",
+                "path": "processes/src-mapping-oltp-to-olap",
+                "icon": "shuffle"
               }
             ]
           },
           {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
+            "group": "Log Books",
+            "icon": "notebook",
             "pages": [
               {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
+                "title": "Log Books",
+                "path": "log-books",
+                "icon": "notebook"
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
+          },
           {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
+            "group": "API Docs",
+            "icon": "code",
+            "pages": [
+              {
+                "title": "API Docs",
+                "path": "api-docs",
+                "icon": "code"
+              }
+            ]
           }
         ]
       }
