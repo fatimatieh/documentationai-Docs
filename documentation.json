@@ -26,55 +26,60 @@
             ]
           },
           {
-            "group": "Cloud",
-            "icon": "cloud",
-            "pages": [
-              {
-                "group": "Azure",
-                "icon": "cloud",
-                "expandable": false,
-                "pages": [
-                  {
-                    "title": "Azure Functions",
-                    "path": "cloud/azure/azure-functions",
-                    "icon": "zap"
-                  },
-                  {
-                    "title": "Databases",
-                    "path": "cloud/azure/databases",
-                    "icon": "database"
-                  },
-                  {
-                    "title": "Storage Accounts",
-                    "path": "cloud/azure/storage-accounts",
-                    "icon": "archive"
-                  },
-                  {
-                    "title": "Cost",
-                    "path": "cloud/azure/cost",
-                    "icon": "dollar-sign"
-                  },
-                  {
-                    "title": "Gateway",
-                    "path": "cloud/azure/gateway",
-                    "icon": "network"
-                  }
-                ]
-              },
-              {
-                "group": "Google",
-                "icon": "bar-chart",
-                "expandable": false,
-                "pages": [
-                  {
-                    "title": "Analytics",
-                    "path": "cloud/google/analytics",
-                    "icon": "line-chart"
-                  }
-                ]
-              }
-            ]
-          },
+  "group": "Cloud",
+  "icon": "cloud",
+  "pages": [
+    {
+      "title": "Cloud Overview",
+      "path": "cloud/index",
+      "icon": "cloud"
+    },
+    {
+      "group": "Azure",
+      "icon": "cloud",
+      "expandable": true,
+      "pages": [
+        {
+          "title": "Azure Functions",
+          "path": "cloud/azure/azure-functions",
+          "icon": "zap"
+        },
+        {
+          "title": "Databases",
+          "path": "cloud/azure/databases",
+          "icon": "database"
+        },
+        {
+          "title": "Storage Accounts",
+          "path": "cloud/azure/storage-accounts",
+          "icon": "archive"
+        },
+        {
+          "title": "Cost",
+          "path": "cloud/azure/cost",
+          "icon": "dollar-sign"
+        },
+        {
+          "title": "Gateway",
+          "path": "cloud/azure/gateway",
+          "icon": "network"
+        }
+      ]
+    },
+    {
+      "group": "Google",
+      "icon": "bar-chart",
+      "expandable": true,
+      "pages": [
+        {
+          "title": "Analytics",
+          "path": "cloud/google/analytics",
+          "icon": "line-chart"
+        }
+      ]
+    }
+  ]
+},
           {
             "group": "GitHub Repos",
             "icon": "github",
