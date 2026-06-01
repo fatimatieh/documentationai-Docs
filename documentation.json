@@ -25,15 +25,10 @@
               }
             ]
           },
-          {
+       {
   "group": "Cloud",
   "icon": "cloud",
   "pages": [
-    {
-      "title": "Cloud Overview",
-      "path": "cloud/index",
-      "icon": "cloud"
-    },
     {
       "group": "Azure",
       "icon": "cloud",
