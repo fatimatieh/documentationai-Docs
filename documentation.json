@@ -81,7 +81,7 @@
             "pages": [
               {
                 "title": "MKIO",
-                "path": "third-party-apps/mkio",
+                "href": "https://app.mk.io/",
                 "icon": "box"
               },
               {
